@@ -45,7 +45,7 @@ extern volatile MCU_IDLE_MANAGER_T g_MCUIdleManager;
  * CPU loading calibration mode
  * Only when this is defined, idle_max will be updated at runtime.
  *----------------------------------------------------------*/
-// #define CPU_LOAD_CALIBRATION`
+// #define CPU_LOAD_CALIBRATION
 
 
 /*_____ M A C R O S ________________________________________________________*/
