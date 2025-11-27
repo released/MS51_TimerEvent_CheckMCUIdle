@@ -300,7 +300,7 @@ uint32_t TimerService_GetTickMs(void)
     return g_ts_tick_ms;
 }
 
-imerService_GetQueueMaxUsed(void)
+uint8_t TimerService_GetQueueMaxUsed(void)
 {
     return g_TimerEventQueue.max_used;
 }

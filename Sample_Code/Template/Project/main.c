@@ -181,7 +181,7 @@ void Fast1ms_Callback(void *user_data)
 
     if ((fast_cnt % 1000U) == 0U)
     {
-        // printf("Fast1ms_Callback cnt = %4lu\r\n", fast_cnt);
+        printf("Fast1ms_Callback cnt = %4lu\r\n", fast_cnt);
     }
 }
 

@@ -74,7 +74,7 @@ void CpuLoadMonitor_Callback(void *user_data)
             (unsigned long)(load_permil % 10UL),
             (unsigned long)idle_now,
             (unsigned long)g_MCUIdleManager.idle_max,
-            (unsigned int)TimerService_GetQueueCurrentUsed(),
+            (unsigned int)TimerService_GetQueueMaxUsed(),
             (unsigned int)TIMER_EVENT_QUEUE_SIZE,
             (unsigned long)TimerService_GetQueueOverflowCnt());
 

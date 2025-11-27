@@ -112,7 +112,7 @@ void  TimerService_Process(void);
 uint32_t TimerService_GetTickMs(void);
 
 /* queue statistics (main context only) */
-// uint8_t  TimerService_GetQueueMaxUsed(void);
+uint8_t  TimerService_GetQueueMaxUsed(void);
 uint8_t  TimerService_GetQueueCurrentUsed(void);
 uint16_t TimerService_GetQueueOverflowCnt(void);
 void     TimerService_ClearQueueStats(void);
